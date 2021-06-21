@@ -28,6 +28,7 @@ function setMainContent(button) {
 			prevPage = contact;
 			break;
 	}
+
 }
 
 function main() {
@@ -45,6 +46,7 @@ function main() {
 
 	// Getting the buttons from the nav-bar
 	const buttons = loadWebsite.getButtons();
+
 	// Checking if any button is clicked
 	buttons.forEach(button => {
 		button.addEventListener('click', () => {
