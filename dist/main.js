@@ -16,7 +16,7 @@
   \******************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _images_backdrop_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/backdrop.jpg */ \"./src/images/backdrop.jpg\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;300;700&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_images_backdrop_jpg__WEBPACK_IMPORTED_MODULE_2__);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* Google Fonts */\\n\\n:root {\\n\\t--default-font: 'Poppins', sans-serif;\\n\\t--default-font-size: 10px;\\n}\\n\\n*, *::after, *::before {\\n\\tmargin: 0;\\n\\tpadding: 0;\\n\\tbox-sizing: border-box;\\n}\\n\\nhtml {\\n\\tscroll-behavior: smooth;\\n\\tfont-family: var(--default-font);\\n\\tfont-size:  var(--default-font-size);\\n\\tline-height: 1.6;\\n\\tfont-weight: 300;\\n}\\n\\nh1 {\\n font-size: 5rem;\\n}\\n\\np {\\n\\tfont-size: 1.8rem;\\n}\\n\\nbutton {\\n\\tfont-family: var(--default-font);\\n\\tcursor: pointer;\\n\\tfont-weight: 300;\\n\\tfont-size: 1.6rem;\\n\\tcolor: white;\\n}\\n\\nheader {\\n\\tpadding: 1.2rem 0em;\\n\\tdisplay: flex;\\n\\tjustify-content: space-around;\\n\\talign-items: center;\\n}\\n\\n#content {\\n\\tbackground-image: linear-gradient(35deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n\\tbackground-position: center;\\n\\tbackground-size: cover;\\n\\theight: 100vh;\\n}\\n\\n.logo {\\n\\tfont-weight: 700;\\n\\tfont-size: 3rem;\\n\\tcolor: white;\\n}\\n\\n.home-tab, .menu-tab, .contact-tab {\\n\\tbackground-color: transparent;\\n\\tpadding: 0.5rem 2rem;\\n\\tmargin: 0 2rem;\\n\\tborder: none;\\n}\\n\\n.home-container {\\n\\tdisplay: flex;\\n\\tjustify-content: center;\\n\\talign-items: center;\\n\\tflex-direction: column;\\n\\theight: 70%;\\n\\tcolor: white;\\n}\\n\\n.main-quote, .description, .check-menu {\\n\\tanimation-name: show-up;\\n\\tanimation-duration: 2s;\\n\\tanimation-fill-mode: forwards;\\n}\\n\\n@keyframes show-up {\\n\\t0% {\\n\\t\\ttransform: translateY(-100px);\\n\\t\\topacity: 0;\\n\\t}\\n\\t100% {\\n\\t\\topacity: 1;\\n\\t\\ttransform: translateY(0px);\\n\\t}\\n}\\n\\nspan {\\n\\tcolor: red;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/css/styles.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _images_backdrop_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/backdrop.jpg */ \"./src/images/backdrop.jpg\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;300;700&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_images_backdrop_jpg__WEBPACK_IMPORTED_MODULE_2__);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* Google Fonts */\\n\\n:root {\\n\\t--default-font: 'Poppins', sans-serif;\\n\\t--default-font-size: 10px;\\n}\\n\\n*, *::after, *::before {\\n\\tmargin: 0;\\n\\tpadding: 0;\\n\\tbox-sizing: border-box;\\n}\\n\\nhtml {\\n\\tscroll-behavior: smooth;\\n\\tfont-family: var(--default-font);\\n\\tfont-size:  var(--default-font-size);\\n\\tline-height: 1.6;\\n\\tfont-weight: 300;\\n}\\n\\nh1 {\\n font-size: 5rem;\\n}\\n\\np {\\n\\tfont-size: 1.8rem;\\n}\\n\\nbutton {\\n\\tfont-family: var(--default-font);\\n\\tcursor: pointer;\\n\\tfont-weight: 300;\\n\\tfont-size: 1.6rem;\\n\\tcolor: white;\\n}\\n\\nheader {\\n\\tpadding: 1.2rem 0em;\\n\\tdisplay: flex;\\n\\tjustify-content: space-around;\\n\\talign-items: center;\\n}\\n\\nimg {\\n\\twidth: 100%;\\n\\theight: 100%;\\n\\tobject-fit: cover;\\n\\ttransition: box-shadow .2s;\\n}\\n\\nimg:hover {\\n\\tbox-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);\\n}\\n\\n#content {\\n\\tbackground-image: linear-gradient(35deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n\\tbackground-position: center;\\n\\tbackground-size: cover;\\n\\theight: 100vh;\\n}\\n\\n.logo {\\n\\tfont-weight: 700;\\n\\tfont-size: 3rem;\\n\\tcolor: white;\\n}\\n\\n.home-tab, .menu-tab, .contact-tab {\\n\\tbackground-color: transparent;\\n\\tpadding: 0.5rem 2rem;\\n\\tmargin: 0 2rem;\\n\\tborder: none;\\n}\\n\\n.home-container {\\n\\tdisplay: flex;\\n\\tjustify-content: center;\\n\\talign-items: center;\\n\\tflex-direction: column;\\n\\theight: 70%;\\n\\tcolor: white;\\n}\\n\\n.menu-container {\\n\\tbackground-color: white;\\n\\theight: 100vh;\\n\\tdisplay: flex;\\n\\tflex-direction: column;\\n\\talign-items: center;\\n}\\n\\n.menu-grid {\\n\\tdisplay: grid;\\n\\tgrid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\\n\\tgrid-gap: 2rem;\\n\\twidth: 80%;\\n\\tpadding: 3rem 0;\\n}\\n\\n.main-quote, .description, .check-menu {\\n\\tanimation-name: show-up;\\n\\tanimation-duration: 1s;\\n\\tanimation-fill-mode: forwards;\\n}\\n\\n@keyframes show-up {\\n\\t0% {\\n\\t\\ttransform: translateY(-100px);\\n\\t\\topacity: 0;\\n\\t}\\n\\t100% {\\n\\t\\topacity: 1;\\n\\t\\ttransform: translateY(0px);\\n\\t}\\n}\\n\\nspan {\\n\\tcolor: red;\\n}\\n\\n@media screen and (max-width: 480px) {\\n\\th1 {\\n\\t\\tfont-size: 3.5rem;\\n\\t}\\n\\n\\tp {\\n\\t\\tfont-size: 1.8rem;\\n\\t}\\n\\n\\t.home-tab, .menu-tab, .contact-tab {\\n\\t\\tdisplay: none;\\n\\t}\\n\\n\\theader {\\n\\t\\tjustify-content: center;\\n\\t}\\n\\n\\t.main-quote {\\n\\t\\tmax-width: 500px;\\n\\t\\ttext-align: center;\\n\\t}\\n\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/css/styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -70,6 +70,96 @@ eval("module.exports = __webpack_require__.p + \"7f7d7ceec0986379caa1.jpg\";\n\n
 
 /***/ }),
 
+/***/ "./src/images/capriciosa.jpg":
+/*!***********************************!*\
+  !*** ./src/images/capriciosa.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2eaaae8764a5cfad047f.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/capriciosa.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/carbonara.jpg":
+/*!**********************************!*\
+  !*** ./src/images/carbonara.jpg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0799ad35f83d3ace6467.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/carbonara.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/diavola.jpg":
+/*!********************************!*\
+  !*** ./src/images/diavola.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"49b633b0fb8112716851.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/diavola.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/hawaiian.jpg":
+/*!*********************************!*\
+  !*** ./src/images/hawaiian.jpg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a01ab9be389f0e6bd6ec.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/hawaiian.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/margherita.jpg":
+/*!***********************************!*\
+  !*** ./src/images/margherita.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"799633a990776e620aed.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/margherita.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/pepperoni.jpeg":
+/*!***********************************!*\
+  !*** ./src/images/pepperoni.jpeg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d173e5db8dacdf1324ed.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/pepperoni.jpeg?");
+
+/***/ }),
+
+/***/ "./src/images/prosciutto.jpg":
+/*!***********************************!*\
+  !*** ./src/images/prosciutto.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2820b5a77b86005f7051.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/prosciutto.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/quadro-stagioni.jpeg":
+/*!*****************************************!*\
+  !*** ./src/images/quadro-stagioni.jpeg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fd53e45aa62b82c5a860.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/quadro-stagioni.jpeg?");
+
+/***/ }),
+
+/***/ "./src/images/quattro-formaggi.jpg":
+/*!*****************************************!*\
+  !*** ./src/images/quattro-formaggi.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"611329fae66aff7791ad.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/quattro-formaggi.jpg?");
+
+/***/ }),
+
 /***/ "./src/js/base.js":
 /*!************************!*\
   !*** ./src/js/base.js ***!
@@ -86,7 +176,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nclass Home {\n\tcreateHome = () => {\n\t\tconst homeContainer = document.createElement('div');\n\t\thomeContainer.classList.add('home-container');\n\n\t\tconst mainQuote = document.createElement('h1');\n\t\tmainQuote.classList.add('main-quote');\n\t\tmainQuote.innerHTML = 'CREATE YOUR <span>TASTE</span>';\n\t\thomeContainer.appendChild(mainQuote);\n\n\t\tconst description = document.createElement('p');\n\t\tdescription.classList.add('description');\n\t\tdescription.textContent = 'Here at Stanley\\'s you get to taste the best food';\n\t\thomeContainer.appendChild(description);\n\n\t\tconst checkMenu = document.createElement('p');\n\t\tcheckMenu.classList.add('check-menu');\n\t\tcheckMenu.textContent = 'Check our menu for more';\n\t\thomeContainer.appendChild(checkMenu);\n\n\t\treturn homeContainer;\n\t}\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);\n\n//# sourceURL=webpack://restaurant-page/./src/js/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nclass Home {\n\tcreateHome = () => {\n\t\tconst homeContainer = document.createElement('div');\n\t\thomeContainer.classList.add('home-container');\n\n\t\tconst mainQuote = document.createElement('h1');\n\t\tmainQuote.classList.add('main-quote');\n\t\tmainQuote.innerHTML = 'WE CREATE YOUR <span>TASTE</span>';\n\t\thomeContainer.appendChild(mainQuote);\n\n\t\tconst description = document.createElement('p');\n\t\tdescription.classList.add('description');\n\t\tdescription.textContent = 'Here at Stanley\\'s you get to taste the best pizza';\n\t\thomeContainer.appendChild(description);\n\n\t\tconst checkMenu = document.createElement('p');\n\t\tcheckMenu.classList.add('check-menu');\n\t\tcheckMenu.textContent = 'Check our menu for more';\n\t\thomeContainer.appendChild(checkMenu);\n\n\t\treturn homeContainer;\n\t}\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);\n\n//# sourceURL=webpack://restaurant-page/./src/js/home.js?");
 
 /***/ }),
 
@@ -106,7 +196,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bas
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nclass Menu {\n\tcreateMenu = () => {\n\t\tconst menuContainer = document.createElement('div');\n\t\tmenuContainer.classList.add('menu-container');\n\n\t\tconst test = document.createElement('h1');\n\t\ttest.textContent = 'TEST'\n\t\tmenuContainer.appendChild(test);\n\n\t\treturn menuContainer;\n\t}\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Menu);\n\n//# sourceURL=webpack://restaurant-page/./src/js/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_capriciosa_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../images/capriciosa.jpg */ \"./src/images/capriciosa.jpg\");\n/* harmony import */ var _images_carbonara_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/carbonara.jpg */ \"./src/images/carbonara.jpg\");\n/* harmony import */ var _images_diavola_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/diavola.jpg */ \"./src/images/diavola.jpg\");\n/* harmony import */ var _images_hawaiian_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/hawaiian.jpg */ \"./src/images/hawaiian.jpg\");\n/* harmony import */ var _images_margherita_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/margherita.jpg */ \"./src/images/margherita.jpg\");\n/* harmony import */ var _images_pepperoni_jpeg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/pepperoni.jpeg */ \"./src/images/pepperoni.jpeg\");\n/* harmony import */ var _images_prosciutto_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/prosciutto.jpg */ \"./src/images/prosciutto.jpg\");\n/* harmony import */ var _images_quadro_stagioni_jpeg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/quadro-stagioni.jpeg */ \"./src/images/quadro-stagioni.jpeg\");\n/* harmony import */ var _images_quattro_formaggi_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/quattro-formaggi.jpg */ \"./src/images/quattro-formaggi.jpg\");\n\n\n\n\n\n\n\n\n\n\nclass Menu {\n\tcreatePizza = (image) => {\n\t\tconst pizzaImage = new Image();\n\t\tpizzaImage.src = image;\n\n\t\treturn pizzaImage\n\t}\n\n\tcreateMenu = () => {\n\t\tconst menuContainer = document.createElement('div');\n\t\tmenuContainer.classList.add('menu-container');\n\n\t\tconst title = document.createElement('h1');\n\t\ttitle.textContent = 'MENU';\n\t\ttitle.classList.add('menu-title');\n\t\tmenuContainer.appendChild(title);\n\n\t\tconst description = document.createElement('p');\n\t\tdescription.textContent = \"These are only a few from our variety of pizzas\";\n\t\tdescription.classList.add(\"menu-description\");\n\t\tmenuContainer.appendChild(description);\n\n\t\tconst menuGrid = document.createElement('div');\n\t\tmenuGrid.classList.add('menu-grid');\n\t\tmenuContainer.appendChild(menuGrid);\n\n\t\tmenuGrid.appendChild(this.createPizza(_images_capriciosa_jpg__WEBPACK_IMPORTED_MODULE_0__));\n\t\tmenuGrid.appendChild(this.createPizza(_images_carbonara_jpg__WEBPACK_IMPORTED_MODULE_1__));\n\t\tmenuGrid.appendChild(this.createPizza(_images_diavola_jpg__WEBPACK_IMPORTED_MODULE_2__));\n\t\tmenuGrid.appendChild(this.createPizza(_images_hawaiian_jpg__WEBPACK_IMPORTED_MODULE_3__));\n\t\tmenuGrid.appendChild(this.createPizza(_images_margherita_jpg__WEBPACK_IMPORTED_MODULE_4__));\n\t\tmenuGrid.appendChild(this.createPizza(_images_pepperoni_jpeg__WEBPACK_IMPORTED_MODULE_5__));\n\t\tmenuGrid.appendChild(this.createPizza(_images_prosciutto_jpg__WEBPACK_IMPORTED_MODULE_6__));\n\t\tmenuGrid.appendChild(this.createPizza(_images_quadro_stagioni_jpeg__WEBPACK_IMPORTED_MODULE_7__));\n\t\tmenuGrid.appendChild(this.createPizza(_images_quattro_formaggi_jpg__WEBPACK_IMPORTED_MODULE_8__));\n\n\t\treturn menuContainer;\n\n\t}\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Menu);\n\n//# sourceURL=webpack://restaurant-page/./src/js/menu.js?");
 
 /***/ })
 

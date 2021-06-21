@@ -43,6 +43,17 @@ header {
 	align-items: center;
 }
 
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: box-shadow .2s;
+}
+
+img:hover {
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
 #content {
 	background-image: linear-gradient(35deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/backdrop.jpg');
 	background-position: center;
@@ -72,9 +83,25 @@ header {
 	color: white;
 }
 
+.menu-container {
+	background-color: white;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.menu-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-gap: 2rem;
+	width: 80%;
+	padding: 3rem 0;
+}
+
 .main-quote, .description, .check-menu {
 	animation-name: show-up;
-	animation-duration: 2s;
+	animation-duration: 1s;
 	animation-fill-mode: forwards;
 }
 
@@ -91,4 +118,28 @@ header {
 
 span {
 	color: red;
+}
+
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 3.5rem;
+	}
+
+	p {
+		font-size: 1.8rem;
+	}
+
+	.home-tab, .menu-tab, .contact-tab {
+		display: none;
+	}
+
+	header {
+		justify-content: center;
+	}
+
+	.main-quote {
+		max-width: 500px;
+		text-align: center;
+	}
+
 }

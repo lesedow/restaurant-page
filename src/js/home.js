@@ -5,12 +5,12 @@ class Home {
 
 		const mainQuote = document.createElement('h1');
 		mainQuote.classList.add('main-quote');
-		mainQuote.innerHTML = 'CREATE YOUR <span>TASTE</span>';
+		mainQuote.innerHTML = 'WE CREATE YOUR <span>TASTE</span>';
 		homeContainer.appendChild(mainQuote);
 
 		const description = document.createElement('p');
 		description.classList.add('description');
-		description.textContent = 'Here at Stanley\'s you get to taste the best food';
+		description.textContent = 'Here at Stanley\'s you get to taste the best pizza';
 		homeContainer.appendChild(description);
 
 		const checkMenu = document.createElement('p');
