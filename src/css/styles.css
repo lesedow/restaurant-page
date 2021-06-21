@@ -74,6 +74,19 @@ img:hover {
 	border: none;
 }
 
+.home-tab::after, .menu-tab::after, .contact-tab::after {
+	content: '';
+	height: 1px;
+	width: 0;
+	background-color: white;
+	display: block;
+	transition: .2s width;
+}
+
+.home-tab:hover:after, .menu-tab:hover:after, .contact-tab:hover:after {
+	width: 100%;
+}
+
 .home-container, .contact-container {
 	display: flex;
 	justify-content: center;
@@ -122,23 +135,37 @@ span {
 
 @media screen and (max-width: 480px) {
 	h1 {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	p {
-		font-size: 1.8rem;
-	}
-
-	.home-tab, .menu-tab, .contact-tab {
-		display: none;
+		font-size: 1.6rem;
 	}
 
 	header {
+		flex-direction: column;
 		justify-content: center;
 	}
 
 	.main-quote {
-		max-width: 500px;
+		max-width: 400px;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 680px) {
+	h1 {
+		font-size: 3rem;
+	}
+
+	header {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.main-quote {
+		max-width: 400px;
 		text-align: center;
 	}
 
