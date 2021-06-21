@@ -74,7 +74,7 @@ img:hover {
 	border: none;
 }
 
-.home-container {
+.home-container, .contact-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -99,7 +99,7 @@ img:hover {
 	padding: 3rem 0;
 }
 
-.main-quote, .description, .check-menu {
+.main-quote, .description, .check-menu, .contact-title {
 	animation-name: show-up;
 	animation-duration: 1s;
 	animation-fill-mode: forwards;

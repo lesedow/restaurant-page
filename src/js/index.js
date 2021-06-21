@@ -1,6 +1,7 @@
 import Base from './base'
 import Home from './home'
 import Menu from './menu'
+import Contact from './contact'
 import '../css/styles.css'
 
 let prevPage;
@@ -21,7 +22,11 @@ function setMainContent(button) {
 			content.appendChild(menu);
 			prevPage = menu;
 			break;
-
+		case 'contactB':
+			const contact  = new Contact().createContact();
+			content.appendChild(contact);
+			prevPage = contact;
+			break;
 	}
 }
 
